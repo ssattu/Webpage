@@ -1,7 +1,24 @@
+@font-face{
+	font-family: brighly_crush;
+	src: url("/home/codesat/webpage/font/brighly_crush/Brightly Crush Shine.otf");
+}
 body {
-	background-color: yellowgreen;
+	background-color: black;
+
 }
 h1 {
 	text-align: center;
-	color: darkblue;
+	color: white;
+	font-family: brighly_crush;
+}
+figure {
+	color: whitesmoke;
+	font-family:cursive;
+	font-style: italic;
+	text-align: center;
+}
+img {
+	display: block;
+	margin: 10% auto auto auto;
+	
 }
