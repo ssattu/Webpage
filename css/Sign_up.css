@@ -1,0 +1,33 @@
+body {
+	text-decoration-color: darkblue;
+	display: block;
+	margin: 10% auto auto auto;
+	background-color: lightcyan;
+	width: 50%;
+	font-size: 20px;
+}
+p {
+	text-align: center;
+	color: darkblue;
+}
+h1 {
+	text-align: center;
+	color: deepskyblue;
+	font-size: 48px;
+	text-decoration: underline;
+}
+.container {
+	padding: 50px;
+}
+input[type=text],input[type=email], select, input[type=date] {
+
+	width: 90%;
+	padding: 15px;
+	display: inline-block;
+	border: none;
+	margin: 20px;
+
+}
+.button {
+	background-color: #4CAF50;
+}
