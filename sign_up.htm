@@ -9,25 +9,31 @@
 </head>
 
 <body>
-    <h1>Sign Up</h1>
-    <fieldset>
-        <legend>Personal Detail</legend>
-        <p>Please Fill this form to Sign Up</p>
-        <form>
-            <div class="container">
-                <label for="fname"> First Name :</label>
-                <input type="text" id="fname" name="fname" placeholder="First name">
-                <label for="lname"> Last Name :</label>
-                <input type="text" id="lname" name="lname" placeholder="Last name"><br><br>
-                <label for="add1"> Address Line 1 :</label>
-                <input type="text" id="add1" name="Add1" placeholder="H No./Flat No."><br><br>
-                <label for="add2"> Address Line 2 :</label>
-                <input type="text" id="add2" name="add2" placeholder="Sector/Colony"><br><br>
-                <label for="district">District :</label>
-                <input type="text" id="district" name="District" placeholder="District"><br><br>
-            </div>
-            <div>
-                <label for="State"> State :</label>
+    <div class="container">
+        <fieldset>
+            <legend>
+                <h1>Sign up</h1>
+            </legend>
+            <p>Please Fill this form to Sign Up</p>
+            <form>
+                <div class="name">
+                    <div>
+                        <label for="fname"> First Name :</label><br>
+                        <input type="text" id="fname" name="fname" placeholder="First name">
+                    </div>
+                    <div>
+                        <label for="lname"> Last Name :</label><br>
+                        <input type="text" id="lname" name="lname" placeholder="Last name">
+                    </div>
+
+                </div><br>
+                <label for="add1"> Address Line 1 :</label><br>
+                <input type="text" id="add1" name="Add1" placeholder="H No./Flat No."><br>
+                <label for="add2"> Address Line 2 :</label><br>
+                <input type="text" id="add2" name="add2" placeholder="Sector/Colony"><br>
+                <label for="district">District :</label><br>
+                <input type="text" id="district" name="District" placeholder="District"><br>
+                <label for="State"> State :</label><br>
                 <select id="State" name="states">
                     <option value="Haryana">Haryana</option>
                     <option value="Uttar Pradesh">Uttar Pradesh</option>
@@ -50,19 +56,25 @@
                     <option value="Punjab">Punajb</option>
                     <option value="Mizoram">Mizoram</option>
                 </select>
-            </div><br><br>
-            <label for="dob">Date of Birth</label>
-            <input type="Date" id="dob" name="dob" placeholder="Select DOB"><br><br>
-            <label for="email">Email : </label>
-            <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
-            <label for="mob"> Mobile No.: </label>
-            <input type="text" id="mob" name="fname" placeholder="09876-54321" pattern="[0-9]{5}[0-9]{5}" title="Please match the Pattern" size="10"><br><br>
-            <label for="img">Upload Profile Picture :</label>
-            <input type="file" id="img" value="Upload Image" name="Upload Image" accept=".png, .jpeg, .jpg">
-            <br><br><br>
-            <button type="button" value="Submit" class="button">Sign Up</button>
-        </form>
-    </fieldset>
+                <br>
+                <label for="dob">Date of Birth</label><br>
+                <input type="Date" id="dob" name="dob" placeholder="Select DOB"><br>
+                <label for="email">Email : </label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email"><br>
+                <div class="mob"><label for="mob"> Mobile No.: </label>
+                    <input type="text" id="mob" placeholder="0987654321" pattern="[0-9]{10}"
+                        title="Please match the Pattern" size="10" maxlength="10">
+                </div><br>
+                <label for="img">Upload Profile Picture :</label><br>
+                <input type="file" id="img" value="Upload Image" name="Upload Image" accept=".png, .jpeg, .jpg">
+                <br><br>
+                <div class="button">
+                    <input type="button" value="Submit" class="su">
+                    <input type="button" value="Reset" class="su">
+                </div>
+            </form>
+        </fieldset>
+    </div>
 </body>
 
 </html>

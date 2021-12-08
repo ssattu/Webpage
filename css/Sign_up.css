@@ -1,33 +1,67 @@
+
 body {
 	text-decoration-color: darkblue;
 	display: block;
-	margin: 10% auto auto auto;
+	margin: 0 auto auto auto;
 	background-color: lightcyan;
-	width: 50%;
-	font-size: 20px;
+	width: 100%;
+	font-size: 16px;
 }
 p {
+	background-color: black;
 	text-align: center;
-	color: darkblue;
+	color: white;
+	padding: 5px;
+	size: 16px;
 }
 h1 {
 	text-align: center;
-	color: deepskyblue;
-	font-size: 48px;
-	text-decoration: underline;
+	color: black;
+	font-size: 36px;
+	text-decoration: none;
 }
 .container {
-	padding: 50px;
+	grid-template-columns: (1fr 1fr);
+	background-color:rgb(207, 204, 198);
+	padding: 10px;
+	margin: 0 auto;
 }
-input[type=text],input[type=email], select, input[type=date] {
+input, select {
 
 	width: 90%;
 	padding: 15px;
 	display: inline-block;
-	border: none;
-	margin: 20px;
+	margin: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	
+}
 
-}
 .button {
-	background-color: #4CAF50;
+
+	display: flex;
+	justify-content: space-evenly;
+	
 }
+.su {
+	background-color: #4CAF50;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	opacity: 0.9;
+	margin: 0 5%;
+}
+.su:hover {
+	background-color: #000000;
+	opacity: 0.9;
+	transition: 1s ease;
+}
+.name {
+   display: flex;
+   justify-content: normal;
+}
+.name div {
+	width: 48%;
+}
+
