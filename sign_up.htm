@@ -11,7 +11,7 @@
 
 <body>
     <div class="container">
-        <fieldset>x
+        <fieldset>
             <legend>
                 <h1>Sign up</h1>
             </legend>
@@ -20,76 +20,76 @@
                 <div class="name">
                     <div>
                         <label for="fname"> First Name :</label><br>
-                        <input type="text" id="fname" name="fname" placeholder="First name">
+                        <input type="text" id="fname" name="form" placeholder="First name">
                         <span><small class="fname-alert">please fill first name</small></span>
                     </div>
                     <div>
                         <label for="lname"> Last Name :</label><br>
-                        <input type="text" id="lname" name="lname" placeholder="Last name">
+                        <input type="text" id="lname" name="form" placeholder="Last name">
                         <span><i  id="lastNameWarning" class="fas fa-exclamation-triangle icon-hide"></i></span>
                     </div>
 
                 </div><br>
                 <label for="add1"> Address Line 1 :</label><br>
-                <input type="text" id="add1" name="Add1" placeholder="H No./Flat No.">
-                <span><i id="addressWarning" class="fas fa-exclamation-triangle icon-hide"></i></span><br>
-                <label for="add2"> Address Line 2 :</label><br>
-                <input type="text" id="add2" name="add2" placeholder="Sector/Colony"><br>
+                <input type="text" id="add1" name="form" placeholder=" H No./Flat No. ">
+                <span><i id="addressWarning " class="fas fa-exclamation-triangle icon-hide "></i></span><br>
+                <label for="add2 "> Address Line 2 :</label><br>
+                <input type="text " id="add2 " name="form" placeholder="Sector/Colony"><br>
                 <label for="district">District :</label><br>
-                <input type="text" id="district" name="District" placeholder="District"><br>
+                <input type="text" id="district" name="form" placeholder="District"><br>
                 <label for="State"> State :</label><br>
-                <select id="State" name="states">
-                    <option value="Haryana">Haryana</option>
-                    <option value="Uttar Pradesh">Uttar Pradesh</option>
-                    <option value="Assam">Assam</option>
-                    <option value="Madhya Pradesh">Madhya Pradesh</option>
-                    <option value="Delhi">Delhi</option>
-                    <option value="Maharastra">Maharastra</option>
-                    <option value="Karnataka">Karnataka</option>
-                    <option value="Tamil Nadu">Tamil Nadu</option>
-                    <option value="Himachal Pradesh">Himachal Pradesh</option>
-                    <option value="Bihar">Bihar</option>
-                    <option value="Jharkhand">Jharkhand</option>
-                    <option value="Odisha">Odisha</option>
-                    <option value="West Bengal">West Bengal</option>
-                    <option value="Tripura">Tripura</option>
-                    <option value="Sikkim">Sikkim</option>
-                    <option value="Jammu">Jammu</option>
-                    <option value="Gujrat">Gujrat</option>
-                    <option value="Rajasthan">Rajasthan</option>
-                    <option value="Punjab">Punajb</option>
-                    <option value="Mizoram">Mizoram</option>
+                <select id="State" name="form">
+                    <option></option>
+                    <option value="Haryana ">Haryana</option>
+                    <option value="Uttar Pradesh ">Uttar Pradesh</option>
+                    <option value="Assam ">Assam</option>
+                    <option value="Madhya Pradesh ">Madhya Pradesh</option>
+                    <option value="Delhi ">Delhi</option>
+                    <option value="Maharastra ">Maharastra</option>
+                    <option value="Karnataka ">Karnataka</option>
+                    <option value="Tamil Nadu ">Tamil Nadu</option>
+                    <option value="Himachal Pradesh ">Himachal Pradesh</option>
+                    <option value="Bihar ">Bihar</option>
+                    <option value="Jharkhand ">Jharkhand</option>
+                    <option value="Odisha ">Odisha</option>
+                    <option value="West Bengal ">West Bengal</option>
+                    <option value="Tripura ">Tripura</option>
+                    <option value="Sikkim ">Sikkim</option>
+                    <option value="Jammu ">Jammu</option>
+                    <option value="Gujrat ">Gujrat</option>
+                    <option value="Rajasthan ">Rajasthan</option>
+                    <option value="Punjab ">Punajb</option>
+                    <option value="Mizoram ">Mizoram</option>
                 </select>
                 <br>
-                <label for="dob">Date of Birth</label><br>
-                <input type="Date" id="dob" name="dob" placeholder="Select DOB">
+                 <label for="dob">Date of Birth</label><br>
+                <input type="Date" id="dob" name="form" placeholder="Select DOB">
                 <span><i id="dobWarning" class="fas fa-exclamation-triangle icon-hide"></i></span><br>
                 <label for="email">Email : </label><br>
-                <input type="email" id="email" name="email" placeholder="Enter your email">
+                <input type="email" id="email" name="form" placeholder="Enter your email">
                 <span><i id="emailWarning" class="fas fa-exclamation-triangle icon-hide"></i></span><br>
                 <div class="mob"><label for="mob"> Mobile No.: </label>
-                    <input type="text" id="mob" placeholder="0987654321" title="Please match the Pattern">
+                    <input type="text" id="mob" placeholder="0987654321" name="form" title="Please match the Pattern">
                     <span><i id="phoneWarning" class="fas fa-exclamation-triangle icon-hide"></i></span><br>
                 </div><br>
                 <label for="img">Upload Profile Picture :</label><br>
                 <input type="file" id="img" value="Upload Image" name="Upload Image" accept=".png, .jpeg, .jpg">
                 <br><br>
                 <label for="createpw">Create Password</label><br>
-                <input type="password" id="cp" name="dob" placeholder="Create password">
+                <input type="password" id="cp" name="form" placeholder="Create password">
                 <span><i id="passwordWarning" class="fas fa-exclamation-triangle icon-hide"></i></span><br>
                 <label for="confirmpw">Confirm Password</label><br>
-                <input type="confirmpassword" id="conp" name="dob" placeholder="Confirm Password">
+                <input type="password" id="conp" name="form" placeholder="Confirm Password">
                 <span><i id="confirmPswWarning" class="fas fa-exclamation-triangle icon-hide"></i></span><br>
 
                 <div class="button">
                     <input type="button" value="Submit" class="su">
-                    <input type="button" value="Reset" class="su re">
+                    <input type="reset" value="Reset" class="su re">
                 </div>
             </form>
         </fieldset>
     </div>
-
-    <script defer src="js/signupp.js"></script>
+    <script defer src="js/signupp.js "></script>
 </body>
 
 </html>
