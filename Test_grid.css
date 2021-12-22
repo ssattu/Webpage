@@ -1,0 +1,102 @@
+*{
+    margin: 0%;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 43px  1fr 43px;
+    background-color: rgb(242, 250, 167);
+    row-gap: 5px;
+    column-gap: 5px;
+    padding: 10px;
+    height: auto;
+    width: 50%;
+    margin: 5% auto auto;
+    
+    
+}
+.item1 {
+  grid-column: 1/4;
+  background-color: black;
+  color: white;
+  size: 36px;
+  align-self: center;
+  align-content: center;
+  text-align: center; 
+  padding: 10px;
+  font-size: 36px;
+  margin: 0;
+
+}
+.item3 { 
+
+    display: grid;
+    align-self:center;
+    grid-column: 1/4;
+    padding: 10px;
+}
+.container div {
+
+}
+.item4 {
+    
+}
+
+body {
+	
+
+	background-color: lightcyan;
+	width: 100%;
+	
+
+}
+.button {
+
+	display: flex;
+    justify-content: center;
+    align-content: center;
+	width: auto;
+	
+}
+.su {
+	background-color: #4CAF50;
+	color: white;
+	width: 50%;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	opacity: 0.9;
+	margin: 0 5%;
+}
+.su:hover {
+	background-color: #000000;
+	opacity: 0.9;
+	transition: 1s ease;
+}
+
+.name {
+
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+}
+.label {
+    width: 70%;
+	padding: 15px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+input, select {
+
+	width: 70%;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	
+}
+.label {
+    font-size: 20pxs;
+    
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}

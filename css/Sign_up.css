@@ -1,0 +1,69 @@
+    body {
+        text-decoration-color: darkblue;
+        display: block;
+        margin: 0 auto auto auto;
+        background-color: lightcyan;
+        width: 100%;
+        font-size: 16px;
+    }
+    
+    p {
+        background-color: black;
+        text-align: center;
+        color: white;
+        padding: 5px;
+        size: 16px;
+    }
+    
+    h1 {
+        text-align: center;
+        color: black;
+        font-size: 36px;
+        text-decoration: none;
+    }
+    
+    .container {
+        grid-template-columns: (1fr 1fr);
+        background-color: rgba(235, 234, 231, 0.507);
+        padding: 10px;
+        margin: 0 auto;
+    }
+    
+    input,
+    select {
+        width: 90%;
+        padding: 15px;
+        display: inline-block;
+        margin: 20px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+    
+    .button {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .su {
+        background-color: #4CAF50;
+        color: white;
+        padding: 16px 20px;
+        border: none;
+        cursor: pointer;
+        opacity: 0.9;
+        margin: 0 5%;
+    }
+    
+    .su:hover {
+        background-color: #000000;
+        opacity: 0.9;
+        transition: 1s ease;
+    }
+    
+    i {
+        color: red;
+    }
+    
+    span {
+        display: none;
+    }
